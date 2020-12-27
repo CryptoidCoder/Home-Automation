@@ -41,3 +41,20 @@ def press(channel):
     pwm.set_pwm(channel, 0, 310)
     time.sleep(0.1)
     pwm.set_pwm(channel,0, servo_middle)
+
+def test(channel):
+    print("pressing ", channel)
+    press(channel)
+    time.sleep(1)
+    print("left, ", channel)
+    left(channel)
+    time.sleep(1)
+    print("right, ", channel)
+    right(channel)
+    time.sleep(1)
+    print("centre, ", channel)
+    centre(channel)
+    time.sleep(1)
+
+test(0)
+test(1)
