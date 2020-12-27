@@ -2,10 +2,11 @@
 ### - Create a modular system for turn **"Dumb"** switches and buttons on & Off.
 ### - This will use relay's & servo's among other things.
 ### - It needs to interface with my Virtual Assistant system [Link Here](https://github.com/TechyYodaCoder/Virtual_Assistant_Modular)
-### - Needs to be able to press;
+### - Needs to be able to interface with;
 - Plug switches (UK)
 - light switches (UK)
-- other buttons (such as a Button on a real Echo Dot, so thatyour virtual assistant can trigger another one.)
+- other buttons (such as a Button on a real Echo Dot, so that your virtual assistant can trigger another one.)
+- Doorlocks (a bit like my project: [here](https://github.com/TechyYodaCoder/Doorlock)) or [here](https://www.thingiverse.com/thing:1596180)
 
 
 ### - The Pi will be the **"Brain"**
@@ -18,15 +19,15 @@
 
 
 ## Things I need;
-- Buttons/ Switches,
-- Microphone,
-- Speaker,
-- Pi,
-- Servos,
-- Servo control Board,
-- Relays,
-- App (to go with it so that we can remote control functions) / Website (To control functions on.),
-
+- Buttons/ Switches / petentiometers, - for the physical inputs(mute, volume, listen etc)
+- LCD?, - to display some info
+- Microphone, - to take voice commands
+- Speaker, - to speak back to you & play music
+- Pi, - as the brain
+- Servos, - to contrl various aspects
+- Servo control Board, to control the servos
+- Relays, - to control various aspects
+- App, - (to go with it so that we can remote control functions) / Website (To control functions on.)
 
 
 ## Done Things:
