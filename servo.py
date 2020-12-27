@@ -1,3 +1,10 @@
+# This is a list of callable functions for the servo going directly into the pi (signal pin being in GPIO 17 - Board number 11)
+
+#Board pinouts servo  -> Pi
+#V+(Orange) -> 5V (On Pi)
+#GND(Brown) -> GND (On Pi)
+#PWM(Yellow) -> GPIO 17/Pin 11
+
 #imports
 import RPi.GPIO as GPIO
 import time
