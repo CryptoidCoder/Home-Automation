@@ -1,0 +1,21 @@
+## Done Things:
+- created callable functions for the servos (still need to check the angle for switches)
+- created callable functions for the servo control board
+
+
+## Still TODO:
+- create the Virtual Assistant
+- make the Virtual Assistant start on boot
+
+- make callable functions for relay module
+
+- 3D model & Print a box for the Pi to go in (with room for switches, petentiometer to go in the lid.)
+
+Virtual Assistant:
+- need to add the help command')
+- need to add more recipients in the email section')
+- need to open settings')
+- need to open the folders in File Explorer, not cmd')
+- need to somehow get a link to the run command {so that whatever you say it will type into the run window, and if it doesnt work then oh well}')
+- need to be able to open bluetooth settings')
+- need to change it so that it is a GPIO input rather than Ctrl + F2 to wake JARVIS so that we can run it headlessley on a pi.')

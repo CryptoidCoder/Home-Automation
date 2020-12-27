@@ -30,15 +30,4 @@
 - App, - (to go with it so that we can remote control functions) / Website (To control functions on.)
 
 
-## Done Things:
-- created callable functions for the servos (still need to check the angle for switches)
-- created callable functions for the servo control board
-
-
-## Still TODO:
-- create the Virtual Assistant
-- make the Virtual Assistant start on boot
-
-- make callable functions for relay module
-
-- 3D model & Print a box for the Pi to go in (with room for switches, petentiometer to go in the lid.)
+[Here is my TODO list - this includes the things I have finished and am currently working on.](TODO)
