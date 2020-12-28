@@ -5,12 +5,18 @@ A project involving servos, relays and other things to turn my home smart.
 
 [Here is the TODO.](TODO)
 
-## To Run on Raspberry Pi:
 
-Go to [requirements.txt](requirements.txt) and un-comment the first two lines; (Adafruit_PCA9685 & RPi.GPIO) - this will make sure they get installed.
+## To setup:
+create a ```.env``` file with the format as follows:
 
-```pip install -r requirements.txt``` - to install required python modules.
+These can be whatever you want: 
 
-```python Virtual_Assistant.py``` - To run the Virtual_Assistant.py script.
+Master = The name it will call you,
+TriggerName = what you will call it.
+setup_type = what mode it should boot into ('pi' or '1' means it will boot into Raspbery Pi mode), OR ('laptop' or '2' means it will boot into Laptop Mode)
+```
+Master = "***"
+TriggerName = "***"
+setup_type = 'pi/ laptop' # pick one
 
-(If you want you can add it to the)
+```

@@ -5,7 +5,10 @@
 
 ## Still TODO:
 - create the Virtual Assistant
+- Add more commands
 - make the Virtual Assistant start on boot
+
+- make two requirmetns.txt (one for Pi mode, one for Laptop mode)
 
 - make callable functions for relay module
 

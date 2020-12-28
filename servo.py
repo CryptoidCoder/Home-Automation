@@ -5,9 +5,10 @@
 #GND(Brown) -> GND (On Pi)
 #PWM(Yellow) -> GPIO 17/Pin 11
 
+import time
+
 #imports
 import RPi.GPIO as GPIO
-import time
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(11, GPIO.OUT) # sets GPIO pin 11 as an output

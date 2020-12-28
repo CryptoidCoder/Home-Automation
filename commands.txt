@@ -1,0 +1,5 @@
+help - This is to list all the available commands
+greetme - This is for me to say hello to you
+startup - This is for me to startup
+
+test - This is a test command
