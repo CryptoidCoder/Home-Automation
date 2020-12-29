@@ -1,0 +1,5 @@
+#imports for both systems (Laptop & Pi)
+pyttsx3  # for text-to-speech
+SpeechRecognition # for speech-to-text
+wolframalpha  # to do maths
+python-dotenv  # for getting info from the env file

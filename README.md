@@ -6,17 +6,29 @@ A project involving servos, relays and other things to turn my home smart.
 [Here is the TODO.](TODO)
 
 
+# Please note that this was intended to run on a Raspberry Pi, as it is only python it can be modified to run on a Laptop, but I only made this so that I could test on my laptop and then run it headlessly on my Pi.
+
 ## To setup:
-create a ```.env``` file with the format as follows:
+### Create a ```.env``` file with the format as follows:
 
 These can be whatever you want: 
 
-Master = The name it will call you,
-TriggerName = what you will call it.
-setup_type = what mode it should boot into ('pi' or '1' means it will boot into Raspbery Pi mode), OR ('laptop' or '2' means it will boot into Laptop Mode)
 ```
+#Usernames
 Master = "***"
 TriggerName = "***"
-setup_type = 'pi/ laptop' # pick one
+
+#text-to-speech
+speakingvoice = american/british
 
 ```
+
+Master = 'The name it will call you'
+TriggerName = 'what you will call it'
+speakingvoice = american/british - this is the voice it will speak in
+
+
+### Install modules:
+```pip install -r Pi_requirements.txt``` - for running on the Pi
+
+```pip install -r Laptop_requirements.txt``` - for testing on a Laptop

@@ -5,6 +5,8 @@
 .env
 Passes.py
 
-#Logs/Other Stuff
+#Logs
 .log
+
+#caches
 __pycache__
