@@ -1,23 +1,27 @@
+## Still TODO:
+
+## Other:
+- create a command to "pair" two servos (as one isn't enought to press a light switch.)
+- make callable functions for relay module
+
+
+### 3D Modelling / Printing:
+- 3D model & Print a box for the Pi to go in (with room for switches, petentiometer to go in the lid.)
+- 3D model & Print a Light switch mount for two servos.
+
+
+### Virtual Assistant:
+- need to add the help command
+- Add more commands
+- need to add more recipients in the email section (google Contacts API?)
+- need to change it so that it is a GPIO input so that we can run it headlessley on a pi.
+- spotify connectivity (https://pimylifeup.com/raspberry-pi-spotify/) - I may do this instead of asking it to play songs
+- make the Virtual Assistant start on boot
+
+
 ## Done Things:
 ~~ - created callable functions for the servos (still need to check the angle for switches)  ~~
 
 ~~ - created callable functions for the servo control board ~~
 
 ~~ - make two requirments.txt (one for Pi mode, one for Laptop mode) ~~
-
-## Still TODO:
-- create the Virtual Assistant
-- Add more commands:
-- - spotify connectivity (https://pimylifeup.com/raspberry-pi-spotify/) - i may do this instead of asking it to play songs
-
-- make the Virtual Assistant start on boot
-
-
-- make callable functions for relay module
-
-- 3D model & Print a box for the Pi to go in (with room for switches, petentiometer to go in the lid.)
-
-Virtual Assistant:
-- need to add the help command
-- need to add more recipients in the email section (google Contacts API?)
-- need to change it so that it is a GPIO input so that we can run it headlessley on a pi.
