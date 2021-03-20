@@ -24,7 +24,9 @@ speakingvoice = american/british
 ```
 
 Master = 'The name it will call you'
+
 TriggerName = 'what you will call it'
+
 speakingvoice = american/british - this is the voice it will speak in
 
 
